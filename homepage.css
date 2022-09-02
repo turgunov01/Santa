@@ -1060,3 +1060,19 @@
 .homepage .rectangle-16 {
   background: var(--dark-red);
 }
+
+.homepage .flex-row {
+  align-items: center !important;
+  position: fixed !important;
+  z-index: 999 !important;
+  top: 0px !important;  
+  background: white !important;
+  width: 100% !important;
+  padding: 50px 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.homepage {
+  margin-top: 6px !important;
+}
