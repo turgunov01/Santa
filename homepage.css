@@ -1,5 +1,14 @@
 /* screen - homepage */
 
+:root {
+  --light-red: #F23742;
+  --dark-red: #D03E2E;
+  --wheat: #FFE1C9;
+  --light-ice: #AFEEFF;
+  --dark-grey: #AFA29A;
+  --white: #ffffff;
+}
+
 .homepage {
   align-items: flex-end;
   background-color: var(--white);
@@ -110,6 +119,7 @@
   position: absolute;
   top: 218px;
   width: 591px;
+
 }
 
 .homepage .frame-2 {
@@ -822,4 +832,231 @@
   position: absolute;
   top: 119px;
   width: 526px;
+}
+
+/* Test version CSS inputs */
+
+
+.xanta {
+  color: var(--light-red) !important;
+}
+
+.sign-up {
+  font-weight: 500 !important;
+}
+
+.sign-in {
+  color: #000 !important;
+  transition: .3s;
+}
+
+.sign-in:hover {
+  color: var(--light-red) !important;
+  cursor: pointer;
+}
+
+.frame-1 {
+  border: 2px solid var(--light-red) !important;
+  background: var(--light-red) !important;
+  color: var(--white) !important;
+  transition: .3s;
+}
+
+.frame-1:hover {
+  background: var(--white) !important;
+}
+
+.frame-2 {
+  border: 2px solid var(--light-red) !important;
+  background: var(--light-red) !important;
+  color: var(--white) !important;
+  transition: .3s;
+}
+
+.frame-2:hover {
+  background: var(--white) !important;
+}
+
+.frame-3 {
+  border: 2px solid var(--light-red) !important;
+  background: var(--light-red) !important;
+  color: var(--white) !important;
+  transition: .3s;
+  padding: 15px 35px !important;
+  cursor: pointer;
+}
+
+.frame-3:hover {
+  background: var(--white) !important;
+}
+
+.frame-1:hover .sign-up {
+  color: var(--light-red) !important;
+}
+
+.frame-2:hover .get-started-for-free {
+  color: var(--light-red) !important;
+}
+
+.frame-3:hover .get-started-for-free-1 {
+  color: var(--light-red) !important;
+}
+
+.homepage {
+  background-color: var(--white) !important;
+}
+
+.rectangle-1 {
+  background-color: var(--wheat) !important;
+}
+
+.the-easiest-way-to-r {
+  color: #000 !important;
+  font-weight: 500 !important;
+}
+
+.use-xanta-to-create {
+  color: #000 !important;
+  opacity: 50%;
+}
+
+.homepage .flex-col {
+  margin-top: 30px !important;
+}
+
+.homepage .flex-row {
+  align-items: center;
+}
+
+.homepage .rectangle {
+  border: none !important;
+}
+
+.overlap-group3,
+.overlap-group {
+  border: 1px solid var(--light-ice);
+  transition: .3s;
+}
+
+.overlap-group3:hover {
+  transform: scale(1.05) translateY(-10px);
+  box-shadow: 0 4px 4px var(--light-ice);
+  color: black !important;
+  background: var(--light-ice) !important;
+}
+
+.overlap-group:hover {
+  transform: scale(1.05) translateY(-10px);
+  box-shadow: 0 4px 4px var(--light-ice);
+  color: black !important;
+  background: var(--light-ice) !important;
+}
+
+.homepage .ellipse {
+  background: #cdf4ff !important;
+  box-shadow: 0px 4px 4px var(--light-ice);
+}
+
+.overlap-group:hover .ellipse {
+  background: white !important;
+}
+
+.overlap-group3:hover .ellipse {
+  background: white !important;
+}
+
+.flex-col-1 {
+  padding-left: 1px !important;
+}
+
+.tell-your-story-and-convince-givers {
+  margin-left: 0px !important;
+  padding-left: 20px;
+  position: relative;
+  min-height: 15px !important;
+}
+
+.tell-your-story-and-convince-givers::after {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  background: var(--light-red);
+  width: 15px;
+  height: 15px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.flex-col-item {
+  margin-left: 0px !important;
+  padding-left: 20px;
+  position: relative;
+  min-height: 15px !important;
+}
+
+.flex-col-item::after {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  background: var(--light-red);
+  width: 15px;
+  height: 15px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.homepage .ellipse-container {
+  display: none !important;
+}
+
+.vuesaxlineararrow-left {
+  background: var(--white) !important;
+  border-radius: 50% !important;
+  border: 2px solid var(--light-red) !important;
+  padding: 10px;
+  opacity: 100% !important;
+  cursor: pointer;
+}
+
+.vuesaxlineararrow-left-1 {
+  background: var(--white) !important;
+  border-radius: 50% !important;
+  border: 2px solid var(--light-red) !important;
+  padding: 10px;
+  opacity: 100% !important;
+  cursor: pointer;
+}
+
+.how-xanta-works {
+  color: var(--wheat) !important;
+  text-shadow: 0px 2px 2px #000;
+}
+
+.ellipse-52 {
+  background: var(--light-red) !important;
+}
+
+.ellipse-5-1 {
+  background: var(--dark-red) !important;
+  opacity: 50%;
+}
+
+.rectangle-9 {
+  background: var(--wheat) !important;
+}
+
+.what-people-say {
+  color: var(--white) !important;
+  text-shadow: 0px 2px 2px #000;
+}
+
+.rectangle-13,
+.rectangle-14 {
+  background: var(--white) !important;
+}
+
+.homepage .rectangle-16 {
+  background: var(--dark-red);
 }

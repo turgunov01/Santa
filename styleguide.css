@@ -1,4 +1,4 @@
-:root { 
+:root {
   --alto: #d9d9d9;
   --black: #000000;
   --black-2: #000000cc;
@@ -8,14 +8,27 @@
   --mercury: #e4e4e4;
   --white: #ffffff;
   --white-2: #ffffffc9;
- 
+  --light-red: #F23742;
+  --dark-red: #D03E2E;
+  --wheat: #FFE1C9;
+  --light-ice: #AFEEFF;
+  --dark-grey: #AFA29A;
+  --white: #ffffff;
+
   --font-size-l: 28px;
   --font-size-m: 18px;
   --font-size-xl: 30px;
- 
+
   --font-family-fredoka_one: "Fredoka One", Helvetica;
   --font-family-open_sans: "Open Sans", Helvetica;
 }
+
+body {
+  background: var(--light-ice) !important;
+}
+
+
+
 .opensans-normal-black-18px {
   color: var(--black-2);
   font-family: var(--font-family-open_sans);
