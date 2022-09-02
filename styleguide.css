@@ -1,0 +1,57 @@
+:root { 
+  --alto: #d9d9d9;
+  --black: #000000;
+  --black-2: #000000cc;
+  --black-3: #0000001f;
+  --black-4: #00000005;
+  --black-5: #000000b2;
+  --mercury: #e4e4e4;
+  --white: #ffffff;
+  --white-2: #ffffffc9;
+ 
+  --font-size-l: 28px;
+  --font-size-m: 18px;
+  --font-size-xl: 30px;
+ 
+  --font-family-fredoka_one: "Fredoka One", Helvetica;
+  --font-family-open_sans: "Open Sans", Helvetica;
+}
+.opensans-normal-black-18px {
+  color: var(--black-2);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.fredokaone-normal-black-30px {
+  color: var(--black);
+  font-family: var(--font-family-fredoka_one);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensans-bold-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.opensans-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensans-normal-black-18px-2 {
+  color: var(--black);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
